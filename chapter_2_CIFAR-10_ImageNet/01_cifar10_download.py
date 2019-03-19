@@ -10,5 +10,7 @@ FLAGS = tf.app.flags.FLAGS
 # 我们把这个路径改为cifar10_data
 FLAGS.data_dir = 'cifar10_data/'
 
+
 # 如果不存在数据文件，就会执行下载
 cifar10.maybe_download_and_extract()
+
